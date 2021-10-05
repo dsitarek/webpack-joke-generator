@@ -2,12 +2,10 @@
 
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
-import jokeData from './helpers/jokeData';
 import loadMainPage from './components/mainPage';
 import domEventListeners from './events/domEvents';
 
 const init = () => {
-  jokeData().then(console.warn);
   loadMainPage();
   domEventListeners();
 };

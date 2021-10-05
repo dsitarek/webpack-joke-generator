@@ -2,7 +2,9 @@ const loadMainPage = () => {
   document.querySelector('#app').innerHTML = `
         <div id="mainContainer">
             <div id="jokeContainer">
-            <button type="button" class="btn btn-success" id="getJokeBtn">Get Joke</button>
+              <div class="joke-card">
+                <button type="button" class="btn btn-success first-joke-btn" id="getJokeBtn">Get Joke</button>
+              </div>
             </div>
             <div id="punchlineContainer"></div>
         </div>`;
