@@ -9,7 +9,7 @@ const showJoke = (joke) => {
     <p class="card-text" id="punchlineContainer">${joke.delivery}</p>
     <button type="button" class="btn btn-dark" id="getPunchlineBtn">Get Punchline</button>
   </div>`;
-  document.querySelector('#punchlineContainer').style.display = 'none';
+  document.querySelector('#punchlineContainer').style.visibility = 'hidden';
 };
 
 export { showJoke, getAnotherJokeBtn };
