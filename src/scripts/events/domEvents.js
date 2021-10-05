@@ -10,7 +10,7 @@ const domEventListeners = () => {
     }
 
     if (target.includes('getPunchlineBtn')) {
-      document.querySelector('#punchlineContainer').style.display = 'block';
+      document.querySelector('#punchlineContainer').style.visibility = 'visible';
       getAnotherJokeBtn();
     }
   });
